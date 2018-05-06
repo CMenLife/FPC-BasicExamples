@@ -1,0 +1,21 @@
+object f_ex6_Main: Tf_ex6_Main
+  Left = 0
+  Height = 240
+  Top = 0
+  Width = 320
+  Caption = 'Рисование линий'
+  ClientHeight = 240
+  ClientWidth = 320
+  Position = poScreenCenter
+  LCLVersion = '1.8.0.6'
+  WindowState = wsMaximized
+  object BStart: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'СТАРТ'
+    OnClick = BStartClick
+    TabOrder = 0
+  end
+end
